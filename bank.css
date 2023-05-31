@@ -1,0 +1,71 @@
+
+
+h3,h5{
+  width: auto; 
+  height:auto;padding: 40px; 
+  display: border; 
+  background-color: lightcyan; 
+  text-align: center;"
+}
+
+#transfer{
+
+  display: inline-block;
+  text-align: right;
+}
+
+
+#signup{
+  width: 500px;
+  height: 500px;
+  padding: 10px ;
+  display: block;
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  border: 5px black;
+  background-color: grey;
+
+}
+
+#account{
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  padding: 10px ;
+  display: block;
+  float: right;
+  margin-left: 20px;
+  border: 5px black;
+  background-color: peachpuff;
+}
+
+#transfer{
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  padding: 10px ;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  border: 5px black;
+  background-color: beige;
+}
+
+#userForm, #send{
+  display: inline-block;
+  text-align: right;
+
+}
+
+/*#account_t{
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  padding: 10px ;
+  display: inline-block;
+  float: right;
+  margin-left: 20px;
+  border: 5px black;
+  background-color: peachpuff;
+}*/

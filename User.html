@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="/home/dev12/work/Bank_project/bank.css"> 
+
+    <title> User </title>
+    <h3> Lakshmi Chit-Fund <br><small>21 din me paisa double</small></h3>
+
+  </head>
+
+  <body style="background-color: mintcream;">
+
+     <div id="signup">
+
+       <form id="userForm" method="post";target="blank";>
+         <h2> User </h2>
+          <label for="userId"> User Id : </label>
+          <input type="number" name="userId" id="u_id"><br><br>
+          <label for="firstname"> First Name : </label>
+          <input type="text" name="firstname" id="user_firstname"><br><br>
+          <label for="lastname"> Last Name : </label>
+          <input type="text" name="lastname"  id="user_lastname"><br><br>
+          <label for="balance"> Balance : </label>
+          <input type="number" name="balance" id="user_balance"><br><br>
+          <label for="acc_number"> Account Number: </label>
+          <input type="number" name="account_number" id="acc_num"><br><br>
+          <label for="pin"> Pin : </label>
+          <input type="text" name="pin" id="t_pin"><br><br>
+          <label for="Contact"> Contact : </label>
+          <input type="tel" name="contact"  id="user_firstname"><br><br>
+          <button id="submit"> Submit </button>
+          <!-- <input type="submit" value="submit" id="display" style="background-color: green;"> -->
+       </form>
+      </div>
+
+
+      <div id="account" method= "get">
+         <h2> User Details </h2>
+         <table id="account_t" style="border-collapse: collapse; border: 2px solid black;padding: 10px; width: 100%; height: 70%;">
+           <thead>
+             <tr id="row">
+               <th>User Id</th><br>
+               <th>User Name</th>
+               <th>Account Number</th>
+               <th>Balance</th>
+             </tr>
+           </thead>
+           <tbody id="display_data">
+           </tbody>
+         </table>
+      </div>
+
+      <div id="transfer">
+         <form id="transferForm" method="post">
+           <h2> Transfer </h2>
+           <label for="from"> From userId: </label>
+           <input type="text" name="From" id="u_from"><br><br>
+           <label for="to"> To userId: </label>
+           <input type="text" name="To" id="u_to"><br><br>
+           <label for="amount"> Amount: </label>
+           <input type="number" name="amount" id="u_amount"><br><br>
+           <label for="pin"> Pin: </label>
+           <input type="text" name="pin" id="u_pin"><br><br>
+           <button id="send" onclick="verify()"> Transfer: </button>
+         </form>
+      </div>
+        
+  </body>
+  <script src="/home/dev12/work/Bank_project/bank.js"></script>
+</html>
